@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*var ourFirstFunction = function (name) {
+            console.log("Hello " + name + "!");
+        };
+
+        ourFirstFunction("Luis");*/
+
+        /*var drawCats = function (howManyTimes) {
+            for (var i = 0; i < howManyTimes; i++) {
+                console.log(i + " =^.^=");
+            }
+        };
+
+        drawCats(5);*/
+
+        /*var printMultipleTimes = function (howManyTimes, whatToDraw) {
+            for (var i = 0; i < howManyTimes; i++) {
+                console.log(i + " " + whatToDraw);
+            }
+        };
+
+        printMultipleTimes(10, "<^^>");*/
+
+        /*var double = function (number) {
+            return number * 2;
+        };
+
+        console.log(double(3));
+
+        console.log(double(5) + double(6));
+
+        console.log(double(ouble(3)));*/
+
+
+        //var randomWords = ["Planet", "Worm", "Flower", "Computer"];
+
+        var pickRandomWord = function (words) {
+            return words[Math.floor(Math.random() * words.length)];
+        };
+
+        //pickRandomWord(pickRandomWords);
+        
+        //console.log(pickRandomWord(randomWords));
+
+        var randomBodyParts = ["Face", "Nose", "Hair"];
+        var randomAdjectives = ["Smelly", "Boring", "Stupid"];
+        var randomWords = ["Fly", "Marmot", "Stick", "Monkey"];
+
+        // Join all the random strings into a sentence:
+        var randomString = "Your " + pickRandomWord(randomBodyParts) + " is like a " + pickRandomWord(randomAdjectives) + " " + pickRandomWord(randomWords) + "!!!";
+        
+        console.log(randomString);
+
+
+
+
+        //<!-- var drawCats = function (howManyTimes) {
+        //    for (var i = 0; i < howManyTimes; i++) {
+        //        console.log(i + " =^.^=");
+        //    }
+        //};
+        //drawCats(5); -->
+    
+
+
+
+
+    </script>>/
+</body>
+</html>
